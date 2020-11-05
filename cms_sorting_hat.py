@@ -17,7 +17,7 @@ name = input("Come close child. What is your name? \n")
 
 # Generates random phrases and tells the user what house they belong to
 print("\n")
-print("Hello", name.upper(),"!")
+print("Hello", name.capitalize(),"!")
 time.sleep(2)
 print(phrases[int(random_phrase)])
 time.sleep(2)
